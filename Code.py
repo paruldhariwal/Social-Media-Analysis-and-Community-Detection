@@ -5,7 +5,7 @@ from igraph import *
 g=Graph()
 
 
-# In[3]:
+
 
 
 def addVertex(g,name_str):
@@ -31,7 +31,7 @@ def retrieve_edge_name_tuple(g,t):
     return a
 
 
-# In[4]:
+
 def load_dataset(fileName,g):
     fileNums=[0]
     for i,eachNum in enumerate(fileNums):
